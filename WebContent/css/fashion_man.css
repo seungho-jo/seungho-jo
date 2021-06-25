@@ -1,0 +1,119 @@
+@charset "UTF-8";
+label{
+	cursor : pointer;
+}
+#main{
+	width : 1370px;
+	height : auto;
+	margin : auto;
+	padding-bottom : 50px;
+	display : flex;
+}
+#side_bar{
+	width : 260px;
+}
+#side_bar .menu1{
+	width : 260px;;
+}
+#side_bar .menu1 .fashion_man{
+	font-size : 24px;
+	color : #1b5ac2;
+	padding-bottom : 10px;
+	margin : 20px 0 10px 0;
+	border-bottom : 1px solid #1b5ac2;
+}
+#side_bar .menu1 .head{
+	padding : 4px 0;
+	height : 23px;
+	line-height : 23px;
+	border-bottom : 1px solid rgba(0,0,0,0.1);
+	display : flex;
+	cursor : pointer;
+}
+#side_bar .menu1 .body{
+	display:none;
+}
+#side_bar .menu1 .body a{
+	margin-left : 20px;
+	text-align : left;
+	display:block;  
+    text-decoration:none;  
+    padding:8px 0;
+    border-bottom : 1px solid rgba(0,0,0,0.1);
+}
+#side_bar .menu1 .body a:hover{
+	color : #1b5ac2;
+}
+#main_bar{
+	width : 1050px;
+	margin-left : 60px;
+}
+#main_bar .title{
+	margin-top : 20px;
+}
+#main_bar .label{
+	background : rgba(0,0,0,0.03);
+	height : 32px;
+	line-height : 32px;
+	align-items : center;
+	display : flex;
+}
+#main_bar .label label{
+	padding : 0 10px;
+	border-right : 0.5px solid rgba(0,0,0,0.1);
+}
+#main_bar .label label:nth-child(5){
+	border : 0;
+}
+#main_bar .label .box{
+	width : 20px;
+	height : 20px;
+	background : white;
+	display : grid;
+	grid-template-rows: 6px 6px 6px;
+    grid-template-columns: 6px 6px 6px;
+    grid-gap: 2px;
+    margin-right : 10px;
+    margin-left : 550px;
+    cursor : pointer;
+}
+#main_bar .label .box div{
+	background : rgba(0,0,0,0.1);
+}
+#main_bar .label .boxes{
+	width : 20px;
+	height : 20px;
+	background : white;
+	display : grid;
+	grid-template-rows: 6px 6px 6px;
+    grid-template-columns: 6px 12px;
+    grid-gap: 2px;
+    cursor : pointer;
+}
+#main_bar .label .boxes div{
+	background : rgba(0,0,0,0.1);
+}
+#main_bar .list ul{
+	padding : 30px 0;
+	border-bottom : 0.5px solid rgba(0,0,0,0.1);
+	display : flex;
+	justify-content : space-between;
+}
+#main_bar .list ul li{
+	width : 250px;
+	text-align : center;
+	height : 350px;
+}
+#main_bar .list ul li:hover{
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+#main_bar .list ul li div{
+	display : flex;
+	font-size : 12px;
+}
+#main_bar .list ul li div p:nth-child(1){
+	padding-right : 5px;
+}
+#main_bar .list ul li p{
+	text-align : left;
+}

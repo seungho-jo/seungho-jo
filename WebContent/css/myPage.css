@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#main{
+	width : 980px;
+	margin : auto;
+	padding : 50px 0;
+	display : flex;
+}
+#side_bar{
+	width : 150px;
+}
+#main_bar{
+	width : 830px;
+}

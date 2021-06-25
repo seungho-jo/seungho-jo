@@ -1,0 +1,41 @@
+@charset "UTF-8";
+#main{
+	width : 1070px;
+	height : 1260px;
+	margin : auto;
+}
+#main .terms,#main .information{
+	overflow:scroll;
+	width:1070px; 
+	height:450px;
+	border : 1px solid rgba(0,0,0,0.1);
+	margin-top : 20px;
+	margin-bottom : 25px;
+}
+h1{
+	color : #1b5ac2;
+}
+#main .terms_check{
+	margin-left : 855px;
+}
+#main .information_check{
+	margin-left : 790px;
+}
+#main .next{
+	text-align : right;
+}
+#main .next .next_box{
+	background : #1b5ac2;
+	border-color : #1b5ac2;
+	color : white;
+	width : 66px;
+	height : 36px;
+	margin-top : 30px;
+	margin-bottom : 30px;
+	cursor : pointer;
+}
+#main .next .next_box:hover {
+	background-color: #fff;
+	border-color: #59b1eb;
+	color: #1b5ac2;
+}

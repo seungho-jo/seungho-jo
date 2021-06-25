@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#login{
+	width : 550px;
+	height : 500px;
+	margin : auto;
+}
+#login hr{
+	margin-bottom : 30px;
+}
+#login .id, #login .pwd{
+	font-size : 20px;
+	width : 550px;
+	height : 40px;
+	margin-top : 10px;
+	margin-bottom : 20px;
+}
+#login .forgive{
+	text-align : right;
+}
+#login .login_button, #login .member_button{
+	width : 550px;
+	height : 50px;
+	font-size : 20px;
+}
+#login .login_button{
+	background : #1b5ac2;
+	color : white;
+	margin-bottom : 30px;
+}
+#login .member_button{
+	color : #1b5ac2;
+}
